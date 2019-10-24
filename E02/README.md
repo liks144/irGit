@@ -41,7 +41,7 @@
 ![[re\_doc]](https://github.com/liks144/irGit/blob/master/E02/img/Screen%20Shot%202019-10-22%20at%2015.56.37.png)
 
 ##实验结果
-![实验结果](https://github.com/liks144/irGit/blob/master/E02/img/Screen%20Shot%202019-10-22%20at%2015.00.10.png)
+![实验结果](https://github.com/liks144/irGit/blob/master/E02/img/2019-10-24%2021-17-47屏幕截图.png)
 
 ##实验评价和改进
 
