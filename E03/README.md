@@ -9,24 +9,25 @@
 ## 实验过程：
     〇、评价指标解释
         MAP
-            ![image1](images/MAP1.png)
-            ![image2](images/MAP2.png)
+            ![image1](https://github.com/liks144/irGit/blob/master/E03/images/MAP1.png)
+            ![image2](https://github.com/liks144/irGit/blob/master/E03/images/MAP.png)
         MRR
-            ![image3](images/MRR2.png)
+            ![image3](https://github.com/liks144/irGit/blob/master/E03/images/MRR2.png)
         NDCG
-            ![image4](images/NDCG.png)
+            ![image40](https://github.com/liks144/irGit/blob/master/E03/images/DCG.png)
+            ![image4](https://github.com/liks144/irGit/blob/master/E03/images/NDCG.png)
 
     一、获取查询query
     从数据集链接获取查询文本，从中q提取出需要查询的query：
-    ![image5](images/query.png)
+    ![image5](https://github.com/liks144/irGit/blob/master/E03/images/query.png)
     
     二、添加MRR函数
-    ![image6](images/MRR.png)
+    ![image6](https://github.com/liks144/irGit/blob/master/E03/images/MRR.png)
     
     三、对query进行查询并输出到需要的格式
 
     四、结果评价
-    ![image7](images/result.png)
+    ![image7](https://github.com/liks144/irGit/blob/master/E03/images/result.png)
     最后的结果为：
     MAP = 0.6359019648999682
     MRR = 0.06817075677293091
