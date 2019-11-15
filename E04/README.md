@@ -2,9 +2,9 @@
 
 ## 实验任务：
     测试sklearn中以下聚类算法在digits手写数字数据集和文本数据集上的聚类效果。
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/algtask.png)
+    ![img](img/algtask.png)
     使用不同的评估方法对结果进行评估。
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/eval.png)
+    ![img](img/eval.png)
     
 ## 实验过程：
 ### 关于 Scikit-learn:
@@ -62,8 +62,8 @@
     也就是说，密度稀疏的区域构成了各个聚类之间的划分界限。与K-means等算法相比，该算法的主要优点包括：可以自主计算聚类的数目，不需要认为指定；不要求类的形状是凸的，可以是任意形状
 #### GMM
     高维数据依然可以使用混合高斯分布，精力关系这里不详细研究，不过要记得高斯模型拓展到高维依然成立，需要时再推。
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/GMM_hd.png)
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/GMM_hd_2.png)
+    ![img](img/GMM_hd.png)
+    ![img](img/GMM_hd_2.png)
 
 ### 评价指标
 #### 外部度量：
@@ -90,8 +90,8 @@
 ### 实验中用到的数据集：
     实验中用到了sklearn内置的手写数据集，我们先对这个数据集进行一个初步的了解：
     手写数字数据集包含1797个0-9的手写数字数据，每个数据由8*8大小的矩阵构成，矩阵中值的范围是0-16，代表颜色的深度。
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/1datashape.png)
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/1datashape2.png)
+    ![img](img/1datashape.png)
+    ![img](img/1datashape2.png)
     实验第二部分用到了内置的短新闻文本数据集，整个数据集有20个类，这里只取4个类进行聚类研究。
     
 
@@ -169,15 +169,15 @@
         print(90 * '_')
     '''
     得到各项指标评价结果：
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/1rslt.png)
+    ![img](img/1rslt.png)
     最后一项SpectralClustering运行时间比较长。
 
 ### 将聚类结果可视化输出：
     将数据PCA分解降到两维，再次进行Kmeans，GMM以及DBSCAN聚类，将不同类的点分别标出来：
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/1class.png)
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/1kmeans.png)
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/1GMM.png)
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/1DNS.png)
+    ![img](img/1class.png)
+    ![img](img/1kmeans.png)
+    ![img](img/1GMM.png)
+    ![img](img/1DNS.png)
     
     可以看到Kmeans在这类数据上表现比较好。
     
@@ -186,12 +186,12 @@
     sklearn同样给出了文本聚类的demo：
     地址：https://scikit-learn.org/stable/auto_examples/text/plot_document_clustering.html#sphx-glr-autoexamples-text-plot-document-clustering-py
     对文本的聚类要先对文本做向量化m，转化成向量序列之后才能做进一步的聚类。
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/categories.png)
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/news_text.png)
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/news_data.png)
+    ![img](img/categories.png)
+    ![img](img/news_text.png)
+    ![img](img/news_data.png)
     同样可以应用各种聚类方法，最后得出来的效果如下：
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/2km.png)
-    ![img](https://github.com/liks144/irGit/blob/master/E04/img/2AP.png)
+    ![img](img/2km.png)
+    ![img](img/2AP.png)
     K-means++的效果依然比较好
 
 ### 实验结果
